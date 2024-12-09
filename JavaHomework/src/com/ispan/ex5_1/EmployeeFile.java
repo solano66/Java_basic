@@ -27,7 +27,7 @@ public class EmployeeFile {
 		
 		
 		try {
-			File file = new File("D:\\JavaWorkspace\\JavaHomework\\src\\com\\ispan\\ex5_1\\test.txt");
+			File file = new File("C:\\java\\workspace\\homework\\src\\com\\ispan\\ex5_1\\test.txt");
 			FileInputStream fis = new FileInputStream(file);
 			BufferedInputStream bis = new BufferedInputStream(fis);
 			byte[] data = new byte[bis.available()];

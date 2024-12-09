@@ -3,7 +3,7 @@ package com.ispan.ex2;
 public class Rope {
 
 	public static void main(String[] args) {
-		double roop = 3000;
+		int roop = 3000;
 		int day = 0;
 		
 		while(roop > 5) {
@@ -11,7 +11,6 @@ public class Rope {
 			day++;
 		}
 		System.out.println(day);
-		System.out.println(roop);
 
 	}
 

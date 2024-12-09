@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class Sort {
 
 	public static void main(String[] args) {
-		int[] bubbleSort = {7, 3, 1, 10, 5, 9, 2, 6, 8, 4, 5};
-		int[] selectionSort = {7, 3, 1, 10, 5, 9, 2, 6, 8, 4, 5};
-		int[] insertionSort = {7, 3, 1, 10, 5, 9, 2, 6, 8, 4, 5};
+		int[] bubbleSort = {7, 3, 1, 10, 9, 2, 6, 8, 4, 5};
+		int[] selectionSort = {7, 3, 1, 10, 9, 2, 6, 8, 4, 5};
+		int[] insertionSort = {7, 3, 1, 10, 9, 2, 6, 8, 4, 5};
 		
 		for (int i = 0; i < bubbleSort.length - 1; i++) {
 			for(int j = 0; j < bubbleSort.length - 1 - i; j++) {
